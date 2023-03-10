@@ -1,2 +1,8 @@
 .mypy_cache
+# Bug with lhcmask
 lhcmask
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
