@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "parameters": {
+    "log_file": "/home/cdroin/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_1p4/madx_000/xsuite_001/tree_maker.log",
+    "n_turns": 1000000,
+    "particle_file": "particles/001.parquet",
+    "xline_json": "xsuite_lines/line_bb_for_tracking.json"
+  }
+}
