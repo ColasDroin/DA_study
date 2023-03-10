@@ -1,0 +1,24 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "tqdm-4.64.1-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "6352f8e6ec03e6dadff4a7d47793c50a",
+  "legacy_bz2_size": 126019,
+  "license": "MPL-2.0 AND MIT",
+  "license_family": "MOZILLA",
+  "md5": "70abdcff9d648dbd7ec15976d5e2ae8a",
+  "name": "tqdm",
+  "sha256": "b74cc6a78c6dfaedf88b96d92d71bbdbac4e12c72777e8b95f4ec61bc2d8e926",
+  "size": 128624,
+  "subdir": "linux-64",
+  "timestamp": 1664392845255,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/tqdm-4.64.1-py310h06a4308_0.conda",
+  "version": "4.64.1"
+}

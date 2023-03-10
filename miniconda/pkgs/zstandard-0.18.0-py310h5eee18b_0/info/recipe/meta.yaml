@@ -1,0 +1,93 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Thu Sep 22 06:16:20 2022
+# ------------------------------------------------
+
+package:
+  name: zstandard
+  version: 0.18.0
+source:
+  sha256: 0ac0357a0d985b4ff31a854744040d7b5754385d1f98f7145c30e02c6865cb6f
+  url: https://pypi.io/packages/source/z/zstandard/zstandard-0.18.0.tar.gz
+build:
+  number: '0'
+  string: py310h5eee18b_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.38 h2a08ee3_1
+    - binutils_linux-64 2.38.0 hc2dff05_0
+    - gcc_impl_linux-64 11.2.0 h1234567_1
+    - gcc_linux-64 11.2.0 h5c386dc_0
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libgcc-devel_linux-64 11.2.0 h1234567_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.07.19 h06a4308_0
+    - certifi 2022.9.14 py310h06a4308_0
+    - cffi 1.15.1 py310h74dc2b5_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - pip 22.1.2 py310h06a4308_0
+    - pycparser 2.21 pyhd3eb1b0_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 63.4.1 py310h06a4308_0
+    - sqlite 3.39.2 h5082296_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022c h04d1e81_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zlib 1.2.12 h5eee18b_3
+  run:
+    - cffi >=1.11
+    - libgcc-ng >=11.2.0
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - zstandard
+  requires:
+    - pip
+about:
+  description: 'This project provides Python bindings for interfacing with the
+
+    Zstandard compression library. A C extension and CFFI interface are
+
+    provided.
+
+    '
+  dev_url: https://github.com/indygreg/python-zstandard
+  doc_source_url: https://github.com/indygreg/python-zstandard/tree/main/docs
+  doc_url: https://github.com/indygreg/python-zstandard/blob/master/README.rst#python-zstandard
+  home: https://github.com/indygreg/python-zstandard
+  license: BSD-3-Clause
+  license_file: LICENSE
+  license_url: https://github.com/indygreg/python-zstandard/blob/main/LICENSE
+  lisense_family: BSD
+  summary: Zstandard bindings for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: e747cd59-e231-4bfe-bdf2-fcf9fb1871c9
+  recipe-maintainers:
+    - rmax
+    - xhochy
+  remote_url: git@github.com:AnacondaRecipes/zstandard-feedstock.git
+  sha: e6189e8e4ba3b1da6f8c80c1c4f154bbd7d22d29

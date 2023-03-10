@@ -1,0 +1,13 @@
+prefix=/home/cdroin/DA_study/miniconda
+exec_prefix=/home/cdroin/DA_study/miniconda
+libdir=/home/cdroin/DA_study/miniconda/lib
+sharedlibdir=/home/cdroin/DA_study/miniconda/lib
+includedir=/home/cdroin/DA_study/miniconda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
