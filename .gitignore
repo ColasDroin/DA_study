@@ -2,6 +2,11 @@
 # Bug with lhcmask and fillingpatterns
 lhcmask
 FillingPatterns
+hllhc15
+lhcerrors
+lhctoolkit
+runIII
+tree_maker
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
