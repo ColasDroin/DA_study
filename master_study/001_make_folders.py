@@ -66,7 +66,7 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
 
 if config['root']['use_yaml_children']== False:
     config['root']['children'] = children
-config['root']['setup_env_script'] = "/afs/cern.ch/work/s/skostogl/private/workspaces/HLLHC_xsuite_Jul22/example_DA_study/miniconda/bin/activate"
+config['root']['setup_env_script'] = os.getcwd() + '/../miniconda/bin/activate'
 
 # Create tree object
 start_time = time.time()
