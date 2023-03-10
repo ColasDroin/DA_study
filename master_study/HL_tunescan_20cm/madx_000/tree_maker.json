@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "name": "xsuite_000",
+      "parameters": {
+        "n_turns": 1000000,
+        "particle_file": "../../particles/000.parquet",
+        "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+      }
+    },
+    {
+      "name": "xsuite_001",
+      "parameters": {
+        "n_turns": 1000000,
+        "particle_file": "../../particles/001.parquet",
+        "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+      }
+    },
+    {
+      "name": "xsuite_002",
+      "parameters": {
+        "n_turns": 1000000,
+        "particle_file": "../../particles/002.parquet",
+        "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+      }
+    },
+    {
+      "name": "xsuite_003",
+      "parameters": {
+        "n_turns": 1000000,
+        "particle_file": "../../particles/003.parquet",
+        "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+      }
+    },
+    {
+      "name": "xsuite_004",
+      "parameters": {
+        "n_turns": 1000000,
+        "particle_file": "../../particles/004.parquet",
+        "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+      }
+    }
+  ],
+  "name": "root",
+  "parameters": {
+    "qx0": 62.305,
+    "qy0": 60.305
+  }
+}

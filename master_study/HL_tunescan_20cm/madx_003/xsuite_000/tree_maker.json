@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "parameters": {
+    "n_turns": 1000000,
+    "particle_file": "../../particles/000.parquet",
+    "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+  }
+}

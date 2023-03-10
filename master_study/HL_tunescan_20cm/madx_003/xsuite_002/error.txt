@@ -1,0 +1,7 @@
+83160555272346579b17a682a624fe80.c:4638: warning: "_GNU_SOURCE" redefined
+ 4638 | #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+      | 
+In file included from 83160555272346579b17a682a624fe80.c:50:
+/home/cdroin/miniconda3/include/python3.10/pyconfig.h:1621: note: this is the location of the previous definition
+ 1621 | #define _GNU_SOURCE 1
+      | 
