@@ -1,6 +1,7 @@
 .mypy_cache
-# Bug with lhcmask
+# Bug with lhcmask and fillingpatterns
 lhcmask
+FillingPatterns
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
