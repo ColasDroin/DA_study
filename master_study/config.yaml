@@ -1,50 +1,50 @@
-"root":
-  setup_env_script: "/home/cdroin/miniconda3/bin/activate"
+'root':
+  setup_env_script: '/home/HPC/sterbini/2021_12_07/miniconda/bin/activate'
   generations:
     1: # Make the particle distribution
-      job_folder: "master_jobs/000_make_part_distribution"
+      job_folder: 'master_jobs/000_make_part_distribution'
       job_executable: 000_make_distrib.py # has to be a python file
       files_to_clone: # relative to the template folder
         - clean_it.sh
-      run_on: "local_pc"
+      run_on: 'local_pc'
     2: # Launch the pymask and prepare the xlines
-      job_folder: "master_jobs/001_machine_model"
+      job_folder: 'master_jobs/001_machine_model'
       job_executable: 000_pymask.py # has to be a python file
       files_to_clone: # relative to the template folder
         - optics_specific_tools.py
         - clean_it.sh
-      run_on: "local_pc" #'htc'
-      htc_job_flavor: "microcentury" # optional parameter to define job flavor, default is espresso
+      run_on: 'htc'
+      htc_job_flavor: 'microcentury' # optional parameter to define job flavor, default is espresso
     3: # Launch the tracking
-      job_folder: "master_jobs/002_tracking_job"
+      job_folder: 'master_jobs/002_tracking_job'
       job_executable: 000_track.py # has to be a python file
       files_to_clone: # relative to the template folder
         - clean_it.sh
-      run_on: "local_pc" #'htc'
-      htc_job_flavor: "tomorrow" # optional parameter to define job flavor, default is espress
+      run_on: 'htc'
+      htc_job_flavor: 'tomorrow' # optional parameter to define job flavor, default is espress
   use_yaml_children: false
   # first generation
   children:
-    "000_make_particle":
+    '000_make_particle':
       children:
-        "000_madx":
+        '000_madx':
           qx0: 62.31
           qy0: 60.32
-          test: "test"
+          test: 'test'
           children:
-            "000_xsuite":
-              particle_file: "../../particles/000.parquet"
-              xline_json: "../xsuite_lines/line_bb_for_tracking.json"
+            '000_xsuite':
+              particle_file: '../../particles/000.parquet' 
+              xline_json:  '../xsuite_lines/line_bb_for_tracking.json'
               n_turns: 1000
-            "001_xsuite":
-              particle_file: "../../particles/000.parquet"
-              xline_json: "../xsuite_lines/line_bb_for_tracking.json"
+            '001_xsuite':
+              particle_file: '../../particles/000.parquet' 
+              xline_json:  '../xsuite_lines/line_bb_for_tracking.json'
               n_turns: 2000
-        "001_madx":
+        '001_madx':
           qx0: 62.313
           qy0: 60.318
           children:
-            "000_xsuite":
-              particle_file: "../../particles/000.parquet"
-              xline_json: "../xsuite_lines/line_bb_for_tracking.json"
+            '000_xsuite':
+              particle_file: '../../particles/000.parquet' 
+              xline_json:  '../xsuite_lines/line_bb_for_tracking.json'
               n_turns: 1000

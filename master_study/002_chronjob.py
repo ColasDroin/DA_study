@@ -66,6 +66,7 @@ class cluster():
                 fid.write('error  = error.txt\n')
                 fid.write('output = output.txt\n')
                 fid.write('log  = log.txt\n')
+                fid.write('transfer_output_files=config.yaml\n')
                 # if user has defined a htc_job_flavor in config.yaml otherwise default is "espresso"
                 if "htc_job_flavor" in list_of_nodes[0].root.parameters['generations'][str(list_of_nodes[0].depth)]:
                     htc_job_flavor = (list_of_nodes[0]
@@ -109,6 +110,7 @@ class cluster():
 
     def submit(self, filename):
         if self.run_on == 'local_pc':
+            print(f'bash {filename}')
             os.system(f'bash {filename}')
         elif self.run_on == 'lsf':
             os.system(f'bash {filename}')
@@ -149,7 +151,11 @@ class cluster():
 # %%
 # Load the tree from a yaml
 if __name__=='__main__':
-    root = tree_maker.tree_from_json('tree_maker.json')
+    #root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json')
+    #root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json')
+    #root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_1p4_2116.json')
+    root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_1p4_2116.json')
+    #root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_octphi2.json')
     if root.has_been('completed'):
         print('All descendants of root are completed!')
     else:

@@ -556,7 +556,8 @@ else:
                     optics_and_co_at_start_ring_from_madx,
                     folder_name = './xsuite_lines',
                     skip_mad_use=True,
-                    prepare_line_for_xtrack=True)
+                    prepare_line_for_xtrack=True,
+                    deferred_expressions=False)
 
 ###################################
 #         Save final twiss        #

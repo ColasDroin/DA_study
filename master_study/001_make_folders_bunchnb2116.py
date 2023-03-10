@@ -16,8 +16,8 @@ config=yaml.safe_load(open('config.yaml'))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.arange(62.305, 62.330, 0.001)[0:1]
-qy0 = np.arange(60.305, 60.330, 0.001)[0:1]
+qx0 = np.arange(62.305, 62.330, 0.001)[:]
+qy0 = np.arange(60.305, 60.330, 0.001)[:]
 
 
 optics_file  = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
@@ -31,9 +31,10 @@ on_x1        = 250.0
 on_x8v       = 170
 on_x8h       = 0.0
 on_disp      = 1
-chroma       = 15
+chroma       = 5
+bunch_nb     = 2116
 
-study_name = f"opt_flathv_75_1500_withBB_chroma15_1p4"
+study_name = f"opt_flathv_75_1500_withBB_chroma5_1p4_2116"
 
 children={}
 children[study_name] = {}
@@ -53,6 +54,7 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
 				    'chromaticity_x':chroma,
                                     'chromaticity_y':chroma,
                                     'knob_settings':{'on_x1':on_x1, 'on_x5':on_x1, 'on_x8v': on_x8v, 'on_x8h': on_x8h, 'on_disp': on_disp},
+				    'beambeam_config':{'bunch_to_track':bunch_nb},
                                     'log_file': f'{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log',
                                     'children':optics_children}
     for track_job in range(15):

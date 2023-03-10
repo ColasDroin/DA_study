@@ -16,13 +16,18 @@ config=yaml.safe_load(open('config.yaml'))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.arange(62.305, 62.330, 0.001)[0:1]
-qy0 = np.arange(60.305, 60.330, 0.001)[0:1]
+qx0 = np.arange(62.305, 62.325+0.001, 0.001)
+
 
 
 optics_file  = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
 beam_sigt    = [0.0761]
-beam_npart   = [1.4e11]
+
+beam_npart   = [9.40e+10, 9.60e+10, 1.00e+11, 1.02e+11, 1.04e+11, 1.06e+11, 1.08e+11, 1.10e+11,
+       1.12e+11, 1.14e+11, 1.16e+11, 1.18e+11, 1.20e+11, 1.22e+11,
+       1.24e+11, 1.26e+11, 1.28e+11, 1.30e+11, 1.32e+11, 1.34e+11,
+       1.36e+11, 1.38e+11, 1.40e+11, 1.42e+11, 1.44e+11]
+
 oct_current  = [60.0]
 enable_crabs = [True]
 mode         = "b1_with_bb"
@@ -33,17 +38,17 @@ on_x8h       = 0.0
 on_disp      = 1
 chroma       = 15
 
-study_name = f"opt_flathv_75_1500_withBB_chroma15_1p4"
+study_name = f"opt_flathv_75_1500_withBB_chroma15_Iscan"
 
 children={}
 children[study_name] = {}
 children[study_name]["children"] = {}
 
-for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumerate(itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs)):
+for optics_job, (myq1, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumerate(itertools.product(qx0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs)):
     optics_children={}
     children[study_name]["children"][f'madx_{optics_job:03}'] = {
                                     'qx0':float(myq1),
-                                    'qy0':float(myq2),
+                                    'qy0':float(myq1-62.0 + 60.0 + 5e-3),
                                     'mode': mode,
                                     'optics_file':my_optics,
                                     'beam_sigt':my_sigt,

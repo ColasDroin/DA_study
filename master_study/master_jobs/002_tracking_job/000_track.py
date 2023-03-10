@@ -30,14 +30,24 @@ except ImportError:
 ##########################################
 # Read line, part_on_co, one-turn matrix #
 ##########################################
+#from pathlib import Path
+#path = Path(config['xline_json'])
+#mypath = str(path.parent.absolute()) + ".tar.gz"
+#mypath2  = path.parent.absolute().parent.absolute()
 
+#import subprocess
+#subprocess.call(["tar","-xvf", mypath, '-C', mypath2], shell=False)
+#
 with open(config['xline_json']) as fid:
     dd=json.load(fid)
 
+#subprocess.call(["rm", "-rf", f"{mypath2}/xsuite_lines"], shell=False)
+#
 p_co = xp.Particles.from_dict(dd['particle_on_tracker_co'])
 line = xt.Line.from_dict(dd)
 R_matrix = np.array(dd['RR_finite_diffs'])
 
+#line._var_management = None # Remove knobs
 #####################################################
 # Get normalized coordinateds of particles to track #
 #####################################################
@@ -66,17 +76,19 @@ particles.particle_id = particle_df.particle_id.values
 # Symplify line #
 #################
 
-line.remove_inactive_multipoles(inplace=True)
-line.remove_zero_length_drifts(inplace=True)
-line.merge_consecutive_drifts(inplace=True)
+#line.remove_inactive_multipoles(inplace=True)
+#line.remove_zero_length_drifts(inplace=True)
+#line.merge_consecutive_drifts(inplace=True)
 #line.merge_consecutive_multipoles(inplace=True)
 
 #################
 # Build tracker #
 #################
 
-tracker = xt.Tracker(line=line)
-
+tracker = xt.Tracker(line=line,
+                    extra_headers=['#define XTRACK_MULTIPOLE_NO_SYNRAD'],
+                    )
+tracker.optimize_for_tracking()
 ############################
 # Save initial coordinates # 
 ############################
