@@ -5,7 +5,7 @@ links:
   tools: tracking_tools/lhctoolkit
   #beambeam_macros: tracking_tools/beambeam_macros
   errors: tracking_tools/lhcerrors
-  optics_repository: '/afs/cern.ch/eng/lhc/optics'
+  optics_repository: "/afs/cern.ch/eng/lhc/optics"
 
 # Mode - choose between:
 
@@ -21,17 +21,16 @@ links:
 
 mode: b1_with_bb
 
-# For test against madx mask for modes 
+# For test against madx mask for modes
 # 'b4_from_b2_without_bb' and 'b4_without_bb':
 # force_leveling:
 #       on_sep8: -0.03425547139366354
 #       on_sep2: 0.14471680504084292
 
 # Optics file
-#optics_file: optics_repository/hllhc15/flat/opt_flatvh_75_300_1500_thin.madx
 optics_file: optics_repository/hllhc15/flat/opt_flatvh_75_300_1500_thin.madx
 # Optics version
-optics_version: '1.5'
+optics_version: "1.5"
 
 # Enable checks
 check_betas_at_ips: false
@@ -40,26 +39,26 @@ save_intermediate_twiss: false
 
 # Tolerances for checks [ip1, ip2, ip5, ip8]
 tol_beta:
-- 0.003
-- 0.2
-- 0.003
-- 0.02
+  - 0.003
+  - 0.2
+  - 0.003
+  - 0.02
 tol_sep:
-- 1.0e-06
-- 1.0e-06
-- 1.0e-06
-- 1.0e-06
+  - 1.0e-06
+  - 1.0e-06
+  - 1.0e-06
+  - 1.0e-06
 
 # Tolerance for check on flat machine
 tol_co_flatness: 1.0e-06
 
 # Beam parameters
-beam_norm_emit_x: 2.5           # [um]
-beam_norm_emit_y: 2.5           # [um]
-beam_sigt: 0.076                # [m]
+beam_norm_emit_x: 2.5 # [um]
+beam_norm_emit_y: 2.5 # [um]
+beam_sigt: 0.076 # [m]
 beam_sige: 0.00011
 beam_npart: 220000000000.0
-beam_energy_tot: 7000           # [GeV]
+beam_energy_tot: 7000 # [GeV]
 
 # Tunes and chromaticities
 qx0: 62.31
@@ -68,29 +67,29 @@ chromaticity_x: 15
 chromaticity_y: 15
 
 # RF voltage
-vrf_total: 16.0         # [MV]
+vrf_total: 16.0 # [MV]
 
 # Octupole current
-oct_current: -235       # [A]
+oct_current: -235 # [A]
 
 # Luminosity parameters
 enable_lumi_control: true
-sep_plane_ip2: x        # used by python tools - NOT by legacy macros
-sep_plane_ip8: y       # used by python tools - NOT by legacy macros, 
-lumi_ip8: 2.0e+33       # [Hz/cm2] leveled luminosity in IP8 
+sep_plane_ip2: x # used by python tools - NOT by legacy macros
+sep_plane_ip8: y # used by python tools - NOT by legacy macros,
+lumi_ip8: 2.0e+33 # [Hz/cm2] leveled luminosity in IP8
 fullsep_in_sigmas_ip2: 5
-nco_IP1: 1960           # number of Head-On collisions in IP1
-nco_IP2: 1178           # number of Head-On collisions in IP2
-nco_IP5: 1960           # number of Head-On collisions in IP5
-nco_IP8: 1886           # number of Head-On collisions in IP8
+nco_IP1: 1960 # number of Head-On collisions in IP1
+nco_IP2: 1178 # number of Head-On collisions in IP2
+nco_IP5: 1960 # number of Head-On collisions in IP5
+nco_IP8: 1886 # number of Head-On collisions in IP8
 
 # Beam-beam parameters (used by python tools - NOT by legacy macros)
 beambeam_config:
   numberOfLRPerIRSide:
-  - 25
-  - 20
-  - 25
-  - 20
+    - 25
+    - 20
+    - 25
+    - 20
   bunch_spacing_buckets: 10
   numberOfHOSlices: 11
   bunch_num_particles: null
@@ -100,9 +99,8 @@ beambeam_config:
   filling_scheme_json: /afs/cern.ch/work/s/skostogl/private/workspaces/HLLHC_xsuite_Jul22/flat_EOL/master_jobs/filling_scheme/8b4e_1972b_1960_1178_1886_224bpi_12inj_800ns_bs200ns.json
   bunch_to_track: 1963
 
-
 # Match tunes and chromaticities including beam-beam effects
-match_q_dq_with_bb: false        # should be off at collision
+match_q_dq_with_bb: false # should be off at collision
 
 # Enable crab cavities
 enable_crabs: true
@@ -148,29 +146,29 @@ knob_names:
 # the other values are used only throught the optics_specific_tools file)
 knob_settings:
   # IP specific orbit settings
-  on_x1: 250            # [urad]  
-  on_sep1: 0            # [mm]  
-  on_x2: -170           # [urad]
-  on_sep2: 0.138        # [mm] 
-  on_x5: 250            # [urad] 
-  on_sep5: 0            # [mm] 
-  on_x8h: 0          # [urad] 
-  on_x8v: 170             # [urad] 
-  on_sep8h: 0           # [mm]  
-  on_sep8v: 0           # [mm]  
-  on_a1: 0              # [urad]
-  on_o1: 0              # [mm]   
-  on_a2: 0              # [urad] 
-  on_o2: 0              # [mm] 
-  on_a5: 0              # [urad] 
-  on_o5: 0              # [mm]
-  on_a8: 0              # [urad] 
-  on_o8: 0              # [mm]
-  on_crab1: -190        # [urad] 
-  on_crab5: -190        # [urad]
+  on_x1: 250 # [urad]
+  on_sep1: 0 # [mm]
+  on_x2: -170 # [urad]
+  on_sep2: 0.138 # [mm]
+  on_x5: 250 # [urad]
+  on_sep5: 0 # [mm]
+  on_x8h: 0 # [urad]
+  on_x8v: 170 # [urad]
+  on_sep8h: 0 # [mm]
+  on_sep8v: 0 # [mm]
+  on_a1: 0 # [urad]
+  on_o1: 0 # [mm]
+  on_a2: 0 # [urad]
+  on_o2: 0 # [mm]
+  on_a5: 0 # [urad]
+  on_o5: 0 # [mm]
+  on_a8: 0 # [urad]
+  on_o8: 0 # [mm]
+  on_crab1: -190 # [urad]
+  on_crab5: -190 # [urad]
 
   # Dispersion correction knob
-  on_disp: 1            # Value to choose could be optics-dependent
+  on_disp: 1 # Value to choose could be optics-dependent
 
   # Magnets of the experiments
   on_alice_normalized: 1
