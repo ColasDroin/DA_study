@@ -66,8 +66,8 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
     }
     for track_job in range(2):
         optics_children[f"xsuite_{track_job:03}"] = {
-            "particle_file": f"particles/{track_job:03}.parquet",
-            "xline_json": "xsuite_lines/line_bb_for_tracking.json",
+            "particle_file": f"../../particles/{track_job:03}.parquet",
+            "xline_json": "../xsuite_lines/line_bb_for_tracking.json",
             "n_turns": int(100),
             "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/xsuite_{track_job:03}/tree_maker.log",
         }
