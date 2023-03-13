@@ -36,7 +36,7 @@ particle_list = [
     (particle_id, ii[0], ii[1])
     for particle_id, ii in enumerate(itertools.product(radial_list, theta_list))
 ]
-particle_list = list(np.array_split(particle_list, 2))
+particle_list = list(np.array_split(particle_list, 15))
 
 distributions_folder = "./particles"
 os.makedirs(distributions_folder, exist_ok=True)

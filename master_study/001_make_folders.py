@@ -16,8 +16,8 @@ config = yaml.safe_load(open("config.yaml"))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.arange(62.305, 62.330, 0.001)[0:2]
-qy0 = np.arange(60.305, 60.330, 0.001)[0:2]
+qx0 = np.arange(62.305, 62.330, 0.001)
+qy0 = np.arange(60.305, 60.330, 0.001)
 
 
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
@@ -64,11 +64,11 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
-    for track_job in range(2):
+    for track_job in range(15):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
             "xline_json": "../xsuite_lines/line_bb_for_tracking.json",
-            "n_turns": int(100),
+            "n_turns": int(1000000),
             "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/xsuite_{track_job:03}/tree_maker.log",
         }
 
