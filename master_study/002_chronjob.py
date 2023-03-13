@@ -68,7 +68,7 @@ class cluster:
                 fid.write("error  = error.txt\n")
                 fid.write("output = output.txt\n")
                 fid.write("log  = log.txt\n")
-                fid.write("transfer_output_files=config.yaml\n")
+                # fid.write("transfer_output_files=config.yaml\n")
                 # if user has defined a htc_job_flavor in config.yaml otherwise default is "espresso"
                 if (
                     "htc_job_flavor"
