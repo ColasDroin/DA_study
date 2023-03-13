@@ -13,3 +13,6 @@ miniconda/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Main output
+opt_flathv*

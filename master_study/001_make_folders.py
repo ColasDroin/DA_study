@@ -72,8 +72,8 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
             "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/xsuite_{track_job:03}/tree_maker.log",
         }
 
-if config["root"]["use_yaml_children"] == False:
-    config["root"]["children"] = children
+# if config["root"]["use_yaml_children"] == False:
+config["root"]["children"] = children
 config["root"]["setup_env_script"] = os.getcwd() + "/../miniconda/bin/activate"
 
 # Create tree object
