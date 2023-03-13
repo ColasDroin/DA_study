@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0",
   "features": "",
   "files": [
     "bin/tqdm",
@@ -92,12 +92,12 @@
   "license": "MPL-2.0 AND MIT",
   "license_family": "MOZILLA",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0",
     "type": 1
   },
   "md5": "70abdcff9d648dbd7ec15976d5e2ae8a",
   "name": "tqdm",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tqdm-4.64.1-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -106,7 +106,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/conda/conda-bld/tqdm_1664392687731/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "42f085f1d7210b9c02828a45d19d2bc9b6dcd36073fc0efcc4723e3b827fb586",
-        "sha256_in_prefix": "c1b628fa499d3f5d0a724bc9ce22ed3fb70f853238a6a171f50c983a80d6e000",
+        "sha256_in_prefix": "cf13941567bd212b10b065968cb76aec92c9ce689d3e79a37911283037f30cc4",
         "size_in_bytes": 461
       }
     ],

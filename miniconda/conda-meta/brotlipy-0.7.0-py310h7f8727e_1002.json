@@ -8,7 +8,7 @@
     "libgcc-ng >=7.5.0",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/brotli/__init__.py",
@@ -31,12 +31,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002",
     "type": 1
   },
   "md5": "a8dfa5aefcc49d5e78000b16d2b7714e",
   "name": "brotlipy",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/brotlipy-0.7.0-py310h7f8727e_1002.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

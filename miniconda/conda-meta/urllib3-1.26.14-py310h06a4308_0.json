@@ -12,7 +12,7 @@
     "pysocks >=1.5.6,<2.0,!=1.5.7",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/urllib3-1.26.14.dist-info/INSTALLER",
@@ -106,12 +106,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0",
     "type": 1
   },
   "md5": "e0b4cfc539954199295eda612157b195",
   "name": "urllib3",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/urllib3-1.26.14-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

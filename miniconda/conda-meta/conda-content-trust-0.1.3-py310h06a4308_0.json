@@ -8,7 +8,7 @@
     "python >=3.10,<3.11.0a0",
     "six"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0",
   "features": "",
   "files": [
     "bin/conda-content-trust",
@@ -46,12 +46,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0",
     "type": 1
   },
   "md5": "69f1c06e7c9ce52d4a9b5787c74cac20",
   "name": "conda-content-trust",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-content-trust-0.1.3-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -60,7 +60,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/tmp/abs_5952f1c8-355c-4855-ad2e-538535021ba5h26t22e5/croots/recipe/conda-content-trust_1658126371814/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
         "sha256": "1bc053b5da57d57f5caca762ca6d51e95e34707ed653a5e64a8dc7709a7e35d1",
-        "sha256_in_prefix": "f532a7bdfb11d25ef62fba8c592db9ba47e50fcd40366178383aa4444a28e9ef",
+        "sha256_in_prefix": "4ff679ff3b41af1205e39da186b9d1ecdf35e05032e69373455221e11ddc8939",
         "size_in_bytes": 474
       }
     ],

@@ -1,8 +1,8 @@
-prefix=/home/cdroin/DA_study/miniconda
+prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/home/cdroin/DA_study/miniconda/include
+includedir=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

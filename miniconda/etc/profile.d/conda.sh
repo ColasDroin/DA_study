@@ -1,7 +1,7 @@
-export CONDA_EXE='/home/cdroin/DA_study/miniconda/bin/conda'
+export CONDA_EXE='/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/conda'
 export _CE_M=''
 export _CE_CONDA=''
-export CONDA_PYTHON_EXE='/home/cdroin/DA_study/miniconda/bin/python'
+export CONDA_PYTHON_EXE='/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/python'
 
 # Copyright (C) 2012 Anaconda, Inc
 # SPDX-License-Identifier: BSD-3-Clause

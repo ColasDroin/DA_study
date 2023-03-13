@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/idna-3.4.dist-info/INSTALLER",
@@ -40,12 +40,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0",
     "type": 1
   },
   "md5": "7f4dba8f7c37983e0d56fad719c94ba3",
   "name": "idna",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/idna-3.4-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

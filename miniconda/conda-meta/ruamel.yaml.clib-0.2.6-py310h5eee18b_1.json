@@ -7,7 +7,7 @@
     "libgcc-ng >=11.2.0",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/_ruamel_yaml.cpython-310-x86_64-linux-gnu.so",
@@ -27,12 +27,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1",
     "type": 1
   },
   "md5": "49a45b52b0edcddab287912fc9cf5304",
   "name": "ruamel.yaml.clib",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml.clib-0.2.6-py310h5eee18b_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

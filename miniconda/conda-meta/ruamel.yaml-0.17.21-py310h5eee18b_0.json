@@ -8,7 +8,7 @@
     "python >=3.10,<3.11.0a0",
     "ruamel.yaml.clib >=0.2.6"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/ruamel.yaml-0.17.21-py3.10-nspkg.pth",
@@ -85,12 +85,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0",
     "type": 1
   },
   "md5": "0a54e321078e043b72b6f68d10472b62",
   "name": "ruamel.yaml",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/ruamel.yaml-0.17.21-py310h5eee18b_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

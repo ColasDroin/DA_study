@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main/noarch",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0",
   "features": "",
   "files": [
     "share/zoneinfo/Africa/Abidjan",
@@ -616,13 +616,13 @@
   "legacy_bz2_size": 120264,
   "license": "CC-PDDC OR BSD-3-Clause",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0",
     "type": 1
   },
   "md5": "833facc4bfeebcb61babe76257e8c9e8",
   "name": "tzdata",
   "noarch": "generic",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/tzdata-2022g-h04d1e81_0.conda",
   "package_type": "noarch_generic",
   "paths_data": {
     "paths": [],

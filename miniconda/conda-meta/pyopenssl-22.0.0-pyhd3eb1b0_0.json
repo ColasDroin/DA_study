@@ -7,7 +7,7 @@
     "cryptography >=35.0",
     "python >=3.6"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/OpenSSL/SSL.py",
@@ -39,13 +39,13 @@
   "license": "Apache-2.0",
   "license_family": "Apache",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0",
     "type": 1
   },
   "md5": "1dbbf9422269cd62c7094960d9b43f36",
   "name": "pyopenssl",
   "noarch": "python",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pyopenssl-22.0.0-pyhd3eb1b0_0.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [

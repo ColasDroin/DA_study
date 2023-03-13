@@ -1,8 +1,8 @@
 # tcl pkg-config source file
 
-prefix=/home/cdroin/DA_study/miniconda
-exec_prefix=/home/cdroin/DA_study/miniconda
-libdir=/home/cdroin/DA_study/miniconda/lib
+prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
+exec_prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
+libdir=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib
 includedir=${prefix}/include
 
 Name: Tool Command Language

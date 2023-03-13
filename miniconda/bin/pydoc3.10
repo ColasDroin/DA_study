@@ -1,4 +1,4 @@
-#!/home/cdroin/DA_study/miniconda/bin/python3.10
+#!/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/python3.10
 
 import pydoc
 if __name__ == '__main__':

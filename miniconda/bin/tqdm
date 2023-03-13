@@ -1,4 +1,4 @@
-#!/home/cdroin/DA_study/miniconda/bin/python
+#!/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/python
 
 # -*- coding: utf-8 -*-
 import re

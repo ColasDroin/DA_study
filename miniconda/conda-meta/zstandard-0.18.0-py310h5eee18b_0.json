@@ -8,7 +8,7 @@
     "libgcc-ng >=11.2.0",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/zstandard-0.18.0.dist-info/INSTALLER",
@@ -33,12 +33,12 @@
   "legacy_bz2_size": 3890934,
   "license": "BSD-3-Clause",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0",
     "type": 1
   },
   "md5": "9f6d676900e6d9c66a524dfb2524a925",
   "name": "zstandard",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zstandard-0.18.0-py310h5eee18b_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

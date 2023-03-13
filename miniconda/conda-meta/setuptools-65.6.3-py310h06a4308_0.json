@@ -7,7 +7,7 @@
     "certifi >=2016.9.26",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/home/cdroin/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/_distutils_hack/__init__.py",
@@ -483,12 +483,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/home/cdroin/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0",
+    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0",
     "type": 1
   },
   "md5": "d8331a85881df5712194edf67638cf08",
   "name": "setuptools",
-  "package_tarball_full_path": "/home/cdroin/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/setuptools-65.6.3-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1
