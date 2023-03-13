@@ -8,7 +8,6 @@ lhctoolkit
 runIII
 tree_maker
 miniconda
-miniconda/bin
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
