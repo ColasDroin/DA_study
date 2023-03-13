@@ -7,7 +7,7 @@ lhcerrors
 lhctoolkit
 runIII
 tree_maker
-miniconda
+miniconda/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
