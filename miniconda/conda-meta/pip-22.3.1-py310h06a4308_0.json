@@ -8,7 +8,7 @@
     "setuptools",
     "wheel"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0",
   "features": "",
   "files": [
     "bin/pip",
@@ -1007,12 +1007,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0",
     "type": 1
   },
   "md5": "3e3d6059e30595fba64fccb77f9044f0",
   "name": "pip",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/pip-22.3.1-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -1021,7 +1021,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pip_1670597408864/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
         "sha256": "75adedba366b63caecf4eef2d22724482956a97440475076327633ab2c01274e",
-        "sha256_in_prefix": "28fffe027515968c5911709a2740e2b38136ec46d808b77cb48a93d05660a396",
+        "sha256_in_prefix": "221f1a8d6a3a705e6bedc161fe9b6ad36fc8bbfa4ec5df9cd387fec920494eff",
         "size_in_bytes": 475
       },
       {
@@ -1030,7 +1030,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/pip_1670597408864/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
         "sha256": "75adedba366b63caecf4eef2d22724482956a97440475076327633ab2c01274e",
-        "sha256_in_prefix": "28fffe027515968c5911709a2740e2b38136ec46d808b77cb48a93d05660a396",
+        "sha256_in_prefix": "221f1a8d6a3a705e6bedc161fe9b6ad36fc8bbfa4ec5df9cd387fec920494eff",
         "size_in_bytes": 475
       }
     ],

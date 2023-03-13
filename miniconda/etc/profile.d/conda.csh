@@ -1,7 +1,7 @@
-setenv CONDA_EXE "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/conda"
-setenv _CONDA_ROOT "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda"
-setenv _CONDA_EXE "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/conda"
-setenv CONDA_PYTHON_EXE "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/python"
+setenv CONDA_EXE "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/bin/conda"
+setenv _CONDA_ROOT "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda"
+setenv _CONDA_EXE "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/bin/conda"
+setenv CONDA_PYTHON_EXE "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/bin/python"
 # Copyright (C) 2012 Anaconda, Inc
 # SPDX-License-Identifier: BSD-3-Clause
 

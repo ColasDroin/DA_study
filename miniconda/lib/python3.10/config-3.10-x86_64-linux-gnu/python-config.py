@@ -1,4 +1,4 @@
-#!/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin/python3.10
+#!/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/bin/python3.10
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

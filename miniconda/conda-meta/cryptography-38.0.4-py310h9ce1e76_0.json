@@ -9,7 +9,7 @@
     "openssl",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/cryptography-38.0.4.dist-info/INSTALLER",
@@ -202,12 +202,12 @@
   "license": "(BSD-3-Clause OR Apache-2.0) AND PSF-2.0 AND MIT",
   "license_family": "BSD",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0",
     "type": 1
   },
   "md5": "f75cc72c0e3460f6959f68171721c74f",
   "name": "cryptography",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cryptography-38.0.4-py310h9ce1e76_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

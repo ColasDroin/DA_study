@@ -7,7 +7,7 @@
     "libgcc-ng >=11.2.0",
     "ncurses >=6.3,<7.0a0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0",
   "features": "",
   "files": [
     "include/readline/chardefs.h",
@@ -43,12 +43,12 @@
   "license": "GPL-3.0-only",
   "license_family": "GPL",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0",
     "type": 1
   },
   "md5": "be42180685cce6e6b0329201d9f48efb",
   "name": "readline",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/readline-8.2-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -57,7 +57,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/readline_1666648016169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "450ab807f966299a9f71160deed14aa40e56a56de9595f11db4e640557a57a9b",
-        "sha256_in_prefix": "b49bbfaa548fd94854dd5c9e312800b92be5231c1f61578bad14953a8fe7744b",
+        "sha256_in_prefix": "04291be59edc858e4dccce2e1c24a6b09b79d80919473076106e263270c19713",
         "size_in_bytes": 548
       },
       {
@@ -66,7 +66,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/readline_1666648016169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
         "sha256": "72a89f8c5c4eca0ee90e99bd903a4e967b599ced760e528ec8beeacd226f8517",
-        "sha256_in_prefix": "774bff7283da5d1014aab3cefbb59f764e9a482f553d26f92b7a6bb38816ba6a",
+        "sha256_in_prefix": "6228762a1e767d38efa7fcf240b803d53c70469181d2bcc514e46be9a2c5a304",
         "size_in_bytes": 562
       }
     ],

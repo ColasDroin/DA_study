@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1",
   "features": "",
   "files": [
     "bin/lzcat",
@@ -156,12 +156,12 @@
   "license": "LGPL-2.1-or-later and GPL-2.0-or-later",
   "license_family": "GPL2",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1",
     "type": 1
   },
   "md5": "dd172c348274807ec0d841df8295b670",
   "name": "xz",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/xz-5.2.10-h5eee18b_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -170,7 +170,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1674070718564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "d68931c8889f4febf0b4246994fd8576dfe565350a2ebef9eabe3c7bdc9789d1",
-        "sha256_in_prefix": "4ebb7820efc224d6288e6ceac958613092ef4748056f14eb5151787f512e56db",
+        "sha256_in_prefix": "ee82a24baeb278caa47c44b1a0d6778466421378f0c0635e723eafa5a5ca590b",
         "size_in_bytes": 17016
       },
       {
@@ -179,7 +179,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1674070718564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "5467f97be125f49671b517c5f841df07c70707b5208e4439a1524e582334f88e",
-        "sha256_in_prefix": "e63fdd91faa6caa32b4f5e682a2c632a914a7f704d3d2e2c21da8680bb57ab22",
+        "sha256_in_prefix": "61a085ea0bd855b61a86a0418b6c262d3116dc9efec91087b24c32710b0a583b",
         "size_in_bytes": 95096
       },
       {
@@ -188,7 +188,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/xz_1674070718564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "d3de3e50fd1dc6bd4e3566fb8ab2a8a20e34b5a1e6aa1e8d0e80593bd3ef89cb",
-        "sha256_in_prefix": "19da8b21e6f153af3ad111b5d92c1dd7e1d603d85f6353f153dde40f624a57d8",
+        "sha256_in_prefix": "63924fc9a75686df63186c02670cc8c011c104b73d7c25b5cadafb3298308469",
         "size_in_bytes": 1395
       }
     ],

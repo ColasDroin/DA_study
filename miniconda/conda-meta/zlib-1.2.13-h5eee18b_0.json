@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0",
   "features": "",
   "files": [
     "include/zconf.h",
@@ -23,12 +23,12 @@
   "license": "Zlib",
   "license_family": "Other",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0",
     "type": 1
   },
   "md5": "333e31fbfbb5057c92fa845ad6adef93",
   "name": "zlib",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/zlib-1.2.13-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -37,7 +37,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/zlib_1666594980945/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
         "sha256": "11202b5c550c2d9b391a82e4c02e1f4a5647684b657d35d0422a179a668f1cce",
-        "sha256_in_prefix": "e0a30371b8e289af4a1227dcbfc8cfb8d7affd2dc8c1793b5589ea237b7163c6",
+        "sha256_in_prefix": "2aa8d91bc4d30c7ff9c90b1cc91a4a704e08988cda1eeafa2cb1f62fd1d0d5ec",
         "size_in_bytes": 1487
       }
     ],

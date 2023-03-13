@@ -12,38 +12,38 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/bin',
- 'BINLIBDEST': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10',
+ 'BINDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/bin',
+ 'BINLIBDEST': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10',
  'BLDLIBRARY': 'libpython3.10.a',
- 'BLDSHARED': 'gcc -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat -shared  '
+ 'BLDSHARED': 'gcc -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat -shared  '
               ''
               ''
-              '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-              '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-              '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+              '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+              '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+              '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
               ''
               ''
-              '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-              '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-              '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+              '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+              '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+              '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
  'BUILD_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
  'BYTESTR_DEPS': '\\',
- 'CC': 'gcc -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat',
+ 'CC': 'gcc -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat',
  'CCSHARED': '-fPIC',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall '
            '-fPIC '
            '-O2   '
            '-isystem '
-           '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+           '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
            ''
            ''
            ''
            '-fPIC '
            '-O2   '
            '-isystem '
-           '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+           '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
            ''
            ''
            '',
@@ -54,7 +54,7 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '-fPIC '
                      '-O2 '
                      '-isystem '
-                     '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                     '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                      ''
                      ''
                      ''
@@ -67,25 +67,25 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                       '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                       '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
+                       '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                       '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
  'CONFIGURE_LDFLAGS': ''
                       ''
-                      '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                      '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                      '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+                      '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                      '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                      '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'CONFIGURE_LDFLAGS_NODIST': '-fno-semantic-interposition  '
                              ''
                              '-g',
- 'CONFIG_ARGS': "'--prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda'"
+ 'CONFIG_ARGS': "'--prefix=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda'"
                 "'--build=x86_64-conda_cos6-linux-gnu'"
                 "'--host=x86_64-conda_cos6-linux-gnu''--enable-ipv6'"
                 "'--with-ensurepip=no'"
-                "'--with-tzpath=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/zoneinfo:/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/tzinfo'"
+                "'--with-tzpath=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/zoneinfo:/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/tzinfo'"
                 "'--with-computed-gotos''--with-system-ffi'"
                 "'--enable-loadable-sqlite-extensions'"
-                "'--with-tcltk-includes=-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include'"
-                "'--with-tcltk-libs=-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib "
+                "'--with-tcltk-includes=-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include'"
+                "'--with-tcltk-libs=-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib "
                 "-ltcl8.6 -ltk8.6''--with-platlibdir=lib''--with-lto'"
                 "'--enable-optimizations'"
                 "'-oldincludedir=/croot/python-split_1673450009074/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include'"
@@ -96,23 +96,23 @@ build_time_vars = {'ABIFLAGS': '',
                 '-fPIC '
                 '-O2  '
                 '-isystem '
-                '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                 ''
                 ''
                 ''
                 "''LDFLAGS=   "
                 ''
                 ''
-                '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                "-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib'"
+                '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                "-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib'"
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
-                '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                "-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include'"
+                '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                "-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include'"
                 "'CPP=/croot/python-split_1673450009074/_build_env/bin/cpp'"
-                "'PKG_CONFIG_PATH=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
- 'CONFINCLUDEPY': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include/python3.10',
+                "'PKG_CONFIG_PATH=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
+ 'CONFINCLUDEPY': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include/python3.10',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/croot/python-split_1673450009074/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/croot/python-split_1673450009074/work/build-static/lcov-report',
@@ -121,19 +121,19 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/croot/python-split_1673450009074/work/Include -DNDEBUG '
              '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-             '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+             '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-             '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
- 'CXX': 'g++ -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat',
- 'DESTDIRS': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda '
-             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10 '
-             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10/lib-dynload',
- 'DESTLIB': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10',
+             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+             '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
+ 'CXX': 'g++ -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat',
+ 'DESTDIRS': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda '
+             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10 '
+             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10/lib-dynload',
+ 'DESTLIB': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10',
  'DESTPATH': '',
- 'DESTSHARED': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10/lib-dynload',
+ 'DESTSHARED': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -600,12 +600,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include/python3.10 '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include/python3.10',
- 'INCLUDEDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
- 'INCLUDEPY': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include/python3.10',
+ 'INCLDIRSTOMAKE': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include/python3.10 '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include/python3.10',
+ 'INCLUDEDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
+ 'INCLUDEPY': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include/python3.10',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -614,40 +614,40 @@ build_time_vars = {'ABIFLAGS': '',
  'INSTSONAME': 'libpython3.10.a',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
- 'LDCXXSHARED': 'g++ -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat -shared',
+ 'LDCXXSHARED': 'g++ -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat -shared',
  'LDFLAGS': ''
             ''
-            '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-            '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-            '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+            '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+            '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+            '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
             ''
             ''
-            '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-            '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-            '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+            '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+            '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+            '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'LDLIBRARY': 'libpython3.10.a',
  'LDLIBRARYDIR': '',
- 'LDSHARED': 'gcc -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat -shared  '
+ 'LDSHARED': 'gcc -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat -shared  '
              ''
              ''
-             '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-             '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-             '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+             '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+             '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+             '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
              ''
              ''
-             '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-             '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-             '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+             '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+             '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+             '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'LDVERSION': '3.10',
  'LIBC': '',
- 'LIBDEST': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10',
- 'LIBDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
- 'LIBFFI_INCLUDEDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
+ 'LIBDEST': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10',
+ 'LIBDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
+ 'LIBFFI_INCLUDEDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/pkgconfig',
- 'LIBPL': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10/config-3.10-x86_64-linux-gnu',
+ 'LIBPC': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/pkgconfig',
+ 'LIBPL': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10/config-3.10-x86_64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.10.a',
  'LIBRARY_DEPS': 'libpython3.10.a',
@@ -655,7 +655,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
  'LIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
  'LIBSUBDIRS': 'asyncio \\',
- 'LINKCC': 'gcc -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat',
+ 'LINKCC': 'gcc -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat',
  'LINKFORSHARED': '-Xlinker -export-dynamic',
  'LIPO_32BIT_FLAGS': '',
  'LIPO_INTEL64_FLAGS': '',
@@ -666,13 +666,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/python3.10',
+ 'MACHDESTLIB': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/python3.10',
  'MACOSX_DEPLOYMENT_TARGET': '',
- 'MAINCC': 'gcc -pthread -B /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/compiler_compat',
+ 'MAINCC': 'gcc -pthread -B /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/compiler_compat',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/croot/python-split_1673450009074/work/Modules/makesetup',
- 'MANDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/man',
+ 'MANDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
                    '_operator  _collections  _abc  itertools  atexit  _signal  '
@@ -698,8 +698,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '-Wl,--no-as-needed',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
- 'OPENSSL_LDFLAGS': '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+ 'OPENSSL_INCLUDES': '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
+ 'OPENSSL_LDFLAGS': '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPENSSL_RPATH': '',
  'OPT': '-DNDEBUG -fwrapv -O2 -Wall',
@@ -741,7 +741,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-fwrapv -O2 -Wall   '
                              '-fPIC  '
                              '-O2   -isystem '
-                             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                              ''
                              ''
                              ''
@@ -749,7 +749,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-fPIC '
                              '-O2 '
                              '-isystem '
-                             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                              ''
                              ''
                              ''
@@ -766,24 +766,24 @@ build_time_vars = {'ABIFLAGS': '',
                              '-IObjects -IInclude -IPython -I. '
                              '-I/croot/python-split_1673450009074/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                             '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                             '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                             '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                             '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                             '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                             '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall '
               '-fPIC '
               '-O2   '
               '-isystem '
-              '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+              '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
               ''
               ''
               ''
               '-fPIC '
               '-O2   '
               '-isystem '
-              '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+              '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
               ''
               ''
               ''
@@ -800,14 +800,14 @@ build_time_vars = {'ABIFLAGS': '',
                    '-Wall    -fPIC '
                    '-O2  '
                    '-isystem '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                    ''
                    ''
                    ''
                    '-fPIC '
                    '-O2  '
                    '-isystem '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                    ''
                    ''
                    ''
@@ -821,44 +821,44 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/croot/python-split_1673450009074/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                   '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                   '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                   '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                   '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                   '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                   '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': ''
                     ''
-                    '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                    '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                    '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+                    '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                    '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                    '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
                     ''
                     ''
-                    '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                    '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-                    '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+                    '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                    '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+                    '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
                     '-fno-semantic-interposition   '
                     '-g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/croot/python-split_1673450009074/work/Include -DNDEBUG '
                 '-D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                 '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
+                '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
  'PY_ENABLE_SHARED': 0,
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': ''
                ''
-               '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-               '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-               '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+               '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+               '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+               '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
                ''
                ''
-               '-Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-               '-Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
-               '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+               '-Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+               '-Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
+               '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'PY_LDFLAGS_NODIST': '-fno-semantic-interposition   '
                       '-g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
@@ -867,7 +867,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-O2 -Wall   '
                         '-fPIC  '
                         '-O2   -isystem '
-                        '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                        '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                         ''
                         ''
                         ''
@@ -875,7 +875,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-fPIC '
                         '-O2 '
                         '-isystem '
-                        '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                        '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                         ''
                         ''
                         ''
@@ -891,11 +891,11 @@ build_time_vars = {'ABIFLAGS': '',
                         '-IObjects -IInclude -IPython -I. '
                         '-I/croot/python-split_1673450009074/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                        '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
+                        '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                        '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
-                        '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include '
-                        '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
+                        '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include '
+                        '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -905,7 +905,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib',
+ 'SCRIPTDIR': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
  'SHLIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
@@ -942,8 +942,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SUBDIRSTOO': 'Include Lib Misc',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
- 'TCLTK_INCLUDES': '-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include',
- 'TCLTK_LIBS': '-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib '
+ 'TCLTK_INCLUDES': '-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include',
+ 'TCLTK_LIBS': '-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -958,7 +958,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/zoneinfo:/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/tzinfo',
+ 'TZPATH': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/zoneinfo:/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': '/croot/python-split_1673450009074/work/Tools/scripts/update_file.py',
@@ -980,7 +980,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/croot/python-split_1673450009074/work/build-static',
  'abs_srcdir': '/croot/python-split_1673450009074/work',
- 'datarootdir': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share',
- 'exec_prefix': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda',
- 'prefix': '/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda',
+ 'datarootdir': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share',
+ 'exec_prefix': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda',
+ 'prefix': '/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda',
  'srcdir': '/croot/python-split_1673450009074/work'}

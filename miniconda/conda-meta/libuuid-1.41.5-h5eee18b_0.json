@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0",
   "features": "",
   "files": [
     "include/uuid/uuid.h",
@@ -22,12 +22,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0",
     "type": 1
   },
   "md5": "4a6a2354414c9080327274aa514e5299",
   "name": "libuuid",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libuuid-1.41.5-h5eee18b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -36,7 +36,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libuuid_1668082679328/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
         "sha256": "ad771b4cb15ca6fcc526199ebbc1c4ff31e1cf96f01fb4710b14462327ebbef1",
-        "sha256_in_prefix": "5c6aa177099c1f6f055bdc95869f6057ddeb500086c0d34e29920ab4b8ff66e7",
+        "sha256_in_prefix": "d426894f0fa2bfc983701716f753566a78677d9a691078097c80f36203e7ce56",
         "size_in_bytes": 1208
       }
     ],

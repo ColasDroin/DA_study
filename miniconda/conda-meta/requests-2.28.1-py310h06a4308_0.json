@@ -10,7 +10,7 @@
     "python >=3.10,<3.11.0a0",
     "urllib3 >=1.21.1,<1.27"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/requests-2.28.1.dist-info/INSTALLER",
@@ -64,12 +64,12 @@
   "license": "Apache-2.0",
   "license_family": "Apache",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0",
     "type": 1
   },
   "md5": "40bbc3476dde7f941c78c2b10fd73166",
   "name": "requests",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/requests-2.28.1-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

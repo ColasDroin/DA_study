@@ -9,7 +9,7 @@
     "pycparser",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/_cffi_backend.cpython-310-x86_64-linux-gnu.so",
@@ -65,12 +65,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3",
     "type": 1
   },
   "md5": "d65505a7028c5cb1d6a078fa688be2be",
   "name": "cffi",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/cffi-1.15.1-py310h5eee18b_3.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

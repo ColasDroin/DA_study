@@ -6,7 +6,7 @@
   "depends": [
     "__glibc >=2.17"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
   "features": "",
   "files": [
     "lib/libstdc++.so",
@@ -19,12 +19,12 @@
   "legacy_bz2_size": 6410287,
   "license": "GPL-3.0-only WITH GCC-exception-3.1",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1",
     "type": 1
   },
   "md5": "57623d10a70e09e1d048c2b2b6f4e2dd",
   "name": "libstdcxx-ng",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libstdcxx-ng-11.2.0-h1234567_1.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

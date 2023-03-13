@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
-exec_prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
-libdir=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib
-includedir=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
+prefix=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda
+exec_prefix=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda
+libdir=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib
+includedir=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include
 
 Name: liblzma
 Description: General purpose data compression library

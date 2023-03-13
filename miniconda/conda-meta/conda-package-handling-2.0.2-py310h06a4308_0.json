@@ -7,7 +7,7 @@
     "conda-package-streaming >=0.7.0",
     "python >=3.10,<3.11.0a0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
   "features": "",
   "files": [
     "bin/cph",
@@ -50,12 +50,12 @@
   "license": "BSD-3-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0",
     "type": 1
   },
   "md5": "64566e4e128101c78fb70c70c750b504",
   "name": "conda-package-handling",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/conda-package-handling-2.0.2-py310h06a4308_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -64,7 +64,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/conda-package-handling_1672865015732/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
         "sha256": "6b5b515be19281963aaa37cf49e5bdcf2e2cf33ff0c96c5afc1633be2f392c77",
-        "sha256_in_prefix": "55490519053a3c53b281338bd728ae44e8aac3d77f47ac353b5c168d486106fa",
+        "sha256_in_prefix": "10e373b52a76afd21f0800e9c28c52293b775a39a94917304f80438377cfb3b7",
         "size_in_bytes": 479
       }
     ],

@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include -fdebug-prefix-map=/croot/python-split_1673450009074/work=/usr/local/src/conda/python-3.10.9 -fdebug-prefix-map=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include -fdebug-prefix-map=/croot/python-split_1673450009074/work=/usr/local/src/conda/python-3.10.9 -fdebug-prefix-map=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST= -fno-semantic-interposition     -g -std=c99 -Wextra -Wn
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST= -fno-semantic-interposition     -g
-CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include -I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
-CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib
+CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include -I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include
+CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -129,7 +129,7 @@ MULTIARCH=	x86_64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"x86_64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda
+prefix=		/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -202,13 +202,13 @@ RUNSHARED=
 ENSUREPIP=      no
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
+OPENSSL_INCLUDES=-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib
+OPENSSL_LDFLAGS=-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib
 OPENSSL_RPATH=
 
 # Default zoneinfo.TZPATH. Added here to expose it in sysconfig.get_config_var
-TZPATH=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/zoneinfo
+TZPATH=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/zoneinfo
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -217,7 +217,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include' '--with-tcltk-libs=-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' '--enable-optimizations' '-oldincludedir=/croot/python-split_1673450009074/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include -fdebug-prefix-map=/croot/python-split_1673450009074/work=/usr/local/src/conda/python-3.10.9 -fdebug-prefix-map=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -Wl,-rpath-link,/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include -I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include' 'CPP=/croot/python-split_1673450009074/_build_env/bin/x86_64-conda-linux-gnu-cpp' 'PKG_CONFIG_PATH=/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include' '--with-tcltk-libs=-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' '--enable-optimizations' '-oldincludedir=/croot/python-split_1673450009074/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include -fdebug-prefix-map=/croot/python-split_1673450009074/work=/usr/local/src/conda/python-3.10.9 -fdebug-prefix-map=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -Wl,-rpath-link,/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include -I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include' 'CPP=/croot/python-split_1673450009074/_build_env/bin/x86_64-conda-linux-gnu-cpp' 'PKG_CONFIG_PATH=/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib/pkgconfig'
 
 
 # Subdirectories with code
@@ -269,8 +269,8 @@ BUILD_GNU_TYPE=	x86_64-conda-linux-gnu
 HOST_GNU_TYPE=	x86_64-conda-linux-gnu
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
-TCLTK_INCLUDES=	-I/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
-TCLTK_LIBS=	-L/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/lib -ltcl8.6 -ltk8.6
+TCLTK_INCLUDES=	-I/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include
+TCLTK_LIBS=	-L/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/lib -ltcl8.6 -ltk8.6
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
@@ -319,7 +319,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/include
+LIBFFI_INCLUDEDIR=	/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/include
 
 ##########################################################################
 # Parser

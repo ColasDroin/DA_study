@@ -7,7 +7,7 @@
     "libgcc-ng >=11.2.0",
     "libstdcxx-ng >=11.2.0"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6",
   "features": "",
   "files": [
     "include/ffi.h",
@@ -32,12 +32,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6",
     "type": 1
   },
   "md5": "6d65e299b535d3b3613b6d4bce901834",
   "name": "libffi",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/libffi-3.4.2-h6a678d5_6.conda",
   "paths_data": {
     "paths": [
       {
@@ -46,7 +46,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/croot/libffi_1669126591380/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
         "sha256": "585da33ea92c5b7da314a7d5641ab0359be0ef1e6ada5e8d46a1eca9d0e398b3",
-        "sha256_in_prefix": "8a745e6b37040b648e5f5a242ae58eb817b5b11037ca5d2a94d54833a6171f98",
+        "sha256_in_prefix": "3bde17199a404c8c1308f63e126f0f5c6230c19055c75abbe32336b713c0f624",
         "size_in_bytes": 756
       }
     ],

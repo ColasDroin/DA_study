@@ -6,7 +6,7 @@
   "depends": [
     "python"
   ],
-  "extracted_package_dir": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1",
+  "extracted_package_dir": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1",
   "features": "",
   "files": [
     "lib/python3.10/site-packages/six-1.16.0.dist-info/INSTALLER",
@@ -26,13 +26,13 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1",
+    "source": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1",
     "type": 1
   },
   "md5": "34586824d411d36af2fa40e799c172d0",
   "name": "six",
   "noarch": "python",
-  "package_tarball_full_path": "/afs/cern.ch/user/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1.conda",
+  "package_tarball_full_path": "/afs/cern.ch/work/c/cdroin/private/DA_study/miniconda/pkgs/six-1.16.0-pyhd3eb1b0_1.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [
