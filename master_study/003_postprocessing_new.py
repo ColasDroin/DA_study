@@ -77,6 +77,7 @@ if True:
 
     my_df = pd.concat(my_list)
     aux = my_df[my_df["state"] != 1]  # unstable
+    df_for_evolution = aux.copy()
     print(
         pd.DataFrame(
             [
@@ -98,7 +99,7 @@ if True:
         ]
     ).transpose()
     my_final.to_parquet(f"{my_study}/da.parquet")
-
+    df_for_evolution.to_parquet(f"{my_study}/da_evolution.parquet")
 
 end = time.time()
 print(end - start)
