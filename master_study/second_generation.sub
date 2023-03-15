@@ -3,4 +3,16 @@ error  = error.txt
 output = output.txt
 log  = log.txt
 +JobFlavour  = "microcentury"
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/run.sh
+queue
 #htc
