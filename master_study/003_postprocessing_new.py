@@ -60,7 +60,6 @@ for node in root.generation(2):
             my_list.append(df)
         except Exception as e:
             problematic.append(node_child.get_abs_path())
-            # print(f"problem {node_child.get_abs_path()} ", e)
 
 my_df = pd.concat(my_list)
 aux = my_df[my_df["state"] != 1]  # unstable

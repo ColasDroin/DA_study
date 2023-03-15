@@ -204,7 +204,7 @@
         "files_to_clone": [
           "clean_it.sh"
         ],
-        "htc_job_flavor": "tomorrow",
+        "htc_job_flavor": "microcentury",
         "job_executable": "000_track.py",
         "job_folder": "master_jobs/002_tracking_job",
         "run_on": "htc"
