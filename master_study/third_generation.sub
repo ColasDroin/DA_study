@@ -1,18 +1,30 @@
-# Running on local pc
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_000/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_001/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_002/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_003/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_000/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_001/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_002/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_003/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_000/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_001/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_002/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_003/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_000/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_001/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_002/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_003/run.sh &
-#local_pc
+# This is a HTCondor submission file
+error  = error.txt
+output = output.txt
+log  = log.txt
++JobFlavour  = "microcentury"
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_000/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_001/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_002/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_octscan/madx_003/xsuite_001/run.sh
+queue
+#htc
