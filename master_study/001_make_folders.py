@@ -31,9 +31,9 @@ on_x1 = 250.0
 on_x8v = 170
 on_x8h = 0.0
 on_disp = 1
-chroma = 15
+chroma = 5  # 15
 
-study_name = f"opt_flathv_75_1500_withBB_chroma15_1p4"
+study_name = f"opt_flathv_75_1500_withBB_chroma5_1p4"  # f"opt_flathv_75_1500_withBB_chroma15_1p4"
 
 children = {}
 children[study_name] = {}
@@ -42,6 +42,10 @@ children[study_name]["children"] = {}
 for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumerate(
     itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs)
 ):
+    # Ignore conditions below the upper diagonal
+    if myq2 < (myq1 - 2 + 0.005):
+        continue
+
     optics_children = {}
     children[study_name]["children"][f"madx_{optics_job:03}"] = {
         "qx0": float(myq1),

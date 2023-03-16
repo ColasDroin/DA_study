@@ -1,2 +1,3 @@
 # Running on local pc
+bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma5_1p4/run.sh &
 #local_pc
