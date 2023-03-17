@@ -22,11 +22,6 @@ qx0 = np.arange(62.305, 62.325 + 0.001, 0.001)
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
 beam_sigt = [0.0761]
 
-# beam_npart   = [9.40e+10, 9.60e+10, 1.00e+11, 1.02e+11, 1.04e+11, 1.06e+11, 1.08e+11, 1.10e+11,
-#       1.12e+11, 1.14e+11, 1.16e+11, 1.18e+11, 1.20e+11, 1.22e+11,
-#       1.24e+11, 1.26e+11, 1.28e+11, 1.30e+11, 1.32e+11, 1.34e+11,
-#       1.36e+11, 1.38e+11, 1.40e+11, 1.42e+11, 1.44e+11]
-
 beam_npart = [1.4e11]
 
 oct_current = list(range(-350, 350, 20))
@@ -70,7 +65,7 @@ for optics_job, (myq1, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumer
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
-    for track_job in range(15):
+    for track_job in range(2):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
             "xline_json": "../xsuite_lines/line_bb_for_tracking.json",
