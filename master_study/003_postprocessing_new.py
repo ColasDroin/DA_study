@@ -18,8 +18,8 @@ start = time.time()
 # my_study='opt_flatvh_75_300_1500'
 # my_study='opt_flathv_75_1500_withBB_chroma15_octscan'
 # my_study='opt_flathv_75_1500_withBB_chroma5_filling'
-# my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
-my_study = "opt_flathv_75_1500_withBB_chroma15_1p4"
+my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
+# my_study = "opt_flathv_75_1500_withBB_chroma15_1p4"
 # my_study='opt_flathv_75_1500_withBB_chroma15_octphi2'
 # my_study='./full_tune_scan_wfix'
 # my_study='./full_tune_scan_wfix_more_particles'
@@ -63,7 +63,7 @@ for node in root.generation(2):
 
 my_df = pd.concat(my_list)
 aux = my_df[my_df["state"] != 1]  # unstable
-df_for_evolution = aux.copy()
+# df_for_evolution = aux.copy()
 print(
     pd.DataFrame(
         [
@@ -85,7 +85,7 @@ my_final = pd.DataFrame(
     ]
 ).transpose()
 my_final.to_parquet(f"{my_study}/da.parquet")
-df_for_evolution.to_parquet(f"{my_study}/da_evolution.parquet")
+# df_for_evolution.to_parquet(f"{my_study}/da_evolution.parquet")
 
 end = time.time()
 print(end - start)
