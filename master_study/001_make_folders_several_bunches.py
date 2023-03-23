@@ -18,8 +18,8 @@ config = yaml.safe_load(open("config.yaml"))
 # machine parameters scans
 # qx0 = np.arange(62.305, 62.330, 0.001)
 # qy0 = np.arange(60.305, 60.330, 0.001)
-qx0 = np.arange(62.310, 62.320, 0.001)
-qy0 = np.arange(60.315, 60.325, 0.001)
+qx0 = np.arange(62.310, 62.321, 0.001)
+qy0 = np.arange(60.315, 60.321, 0.001)
 
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
 beam_sigt = [0.0761]
