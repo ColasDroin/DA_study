@@ -83,7 +83,10 @@ for bunch_nb in [
             except Exception as e:
                 problematic.append(node_child.get_abs_path())
 
-    my_df = pd.concat(my_list)
+    try:
+        my_df = pd.concat(my_list)
+    except:
+        continue
     aux = my_df[my_df["state"] != 1]  # unstable
     # df_for_evolution = aux.copy()
     print(
