@@ -16,7 +16,7 @@ config=yaml.safe_load(open('config.yaml'))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.arange(62.305, 62.325+0.001, 0.001)
+qx0 = np.round(np.arange(62.305, 62.325+0.001, 0.001), 5)
 
 
 
