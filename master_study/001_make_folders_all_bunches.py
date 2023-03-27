@@ -10,15 +10,15 @@ import numpy as np
 import yaml
 from user_defined_functions import generate_run_sh
 from user_defined_functions import generate_run_sh_htc
+import pandas as pd
 
 # Import the configuration
 config = yaml.safe_load(open("config.yaml"))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.round(np.arange(62.305, 62.331, 0.001), 5)
-qy0 = np.round(np.arange(60.305, 60.331, 0.001), 5)
-
+qx0 = [62.316]
+qy0 = [62.321]
 
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
 beam_sigt = [0.0761]
@@ -31,21 +31,21 @@ on_x1 = 250.0
 on_x8v = 170
 on_x8h = 0.0
 on_disp = 1
-chroma = 5  # 15
-
-study_name = f"opt_flathv_75_1500_withBB_chroma5_1p4"  # f"opt_flathv_75_1500_withBB_chroma15_1p4"
+chroma = 15
+list_bunches = pd.read_csv(
+    "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/analysis/8b4e_1972b_1960_1178_1886_224bpi_12inj_800ns_bs200ns_bbs.csv"
+)["bunch number"].to_list()
+study_name = f"opt_flathv_75_1500_withBB_chroma15_1p4_all_bunches"
 
 children = {}
 children[study_name] = {}
 children[study_name]["children"] = {}
 
-for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumerate(
-    itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs)
+for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs, my_bunch) in enumerate(
+    itertools.product(
+        qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs, list_bunches
+    )
 ):
-    # Ignore conditions below the upper diagonal
-    if myq2 < (myq1 - 2 + 0.005):
-        continue
-
     optics_children = {}
     children[study_name]["children"][f"madx_{optics_job:03}"] = {
         "qx0": float(myq1),
@@ -65,9 +65,11 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
             "on_x8h": on_x8h,
             "on_disp": on_disp,
         },
+        "beambeam_config": {"bunch_to_track": my_bunch},
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
+
     for track_job in range(10):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
@@ -76,7 +78,7 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
             "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/xsuite_{track_job:03}/tree_maker.log",
         }
 
-# if config["root"]["use_yaml_children"] == False:
+# Set config
 config["root"]["children"] = children
 config["root"]["setup_env_script"] = os.getcwd() + "/../miniconda/bin/activate"
 

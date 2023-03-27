@@ -18,12 +18,10 @@ start = time.time()
 # my_study='opt_flatvh_75_300_1500'
 # my_study='opt_flathv_75_1500_withBB_chroma15_octscan'
 # my_study='opt_flathv_75_1500_withBB_chroma5_filling'
-my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
+# my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
 # my_study = "opt_flathv_75_1500_withBB_chroma15_1p4"
 # my_study='opt_flathv_75_1500_withBB_chroma15_octphi2'
-# my_study='./full_tune_scan_wfix'
-# my_study='./full_tune_scan_wfix_more_particles'
-# my_study='./full_tune_scan_wfix_more_particles_tunes_as_sixt'
+my_study = "opt_flathv_75_1500_withBB_chroma15_1p4_all_bunches"
 problematic = []
 try:
     # root=tree_maker.tree_from_json(f'{my_study}/tree_maker.json')
