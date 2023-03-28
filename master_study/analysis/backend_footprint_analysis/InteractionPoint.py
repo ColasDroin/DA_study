@@ -101,6 +101,7 @@ class Beam:
     # To extract around an IP
     # ---------------------------
     def at_IP(self, IP):
+        print("OK SO FAR")
         self.twiss, self.survey = extract_IP_ROI(IP, self.name, self.twiss_full, self.survey_full)
 
         # if self.name == 'b2':
@@ -216,20 +217,25 @@ class Beam:
 
 def extract_IP_ROI(IP, beam, twiss, survey):
     # ROI from dipoles
-    # try:
-    ROI_twiss = twiss.loc[f"mb.a8l{IP[-1]}.{beam}_dex":f"mb.a8r{IP[-1]}.{beam}_den"].copy()
-    ROI_survey = survey.loc[f"mb.a8l{IP[-1]}.{beam}_dex":f"mb.a8r{IP[-1]}.{beam}_den"].copy()
-    # except:
-    #    ROI_twiss  =  twiss.loc[f'mb.a8l{IP[-1]}.{beam}':f'mb.a8r{IP[-1]}.{beam}'].copy()
-    #    ROI_survey = survey.loc[f'mb.a8l{IP[-1]}.{beam}':f'mb.a8r{IP[-1]}.{beam}'].copy()
+    try:
+        ROI_twiss = twiss.loc[f"mb.a8l{IP[-1]}.{beam}..1":f"mb.a8r{IP[-1]}.{beam}..2"].copy()
+        ROI_survey = survey.loc[f"mb.a8l{IP[-1]}.{beam}..1":f"mb.a8r{IP[-1]}.{beam}..2"].copy()
+        # Angle for rotation of survey
+        angle = -ROI_survey.loc[IP, "theta"]
+    except:
+        ROI_twiss = twiss.loc[f"mb.a8r{IP[-1]}.{beam}..1":f"mb.a8l{IP[-1]}.{beam}..2"].copy()
+        ROI_survey = survey.loc[f"mb.a8r{IP[-1]}.{beam}..1":f"mb.a8l{IP[-1]}.{beam}..2"].copy()
+        # Angle for rotation of survey
+        angle = -ROI_survey.loc[IP, "theta"]
 
-    # Angle for rotation of survey
-    angle = -ROI_survey.loc[IP, "theta"]
+    print("OK SO FARRRRRRR")
 
     # Re-centering before rotating
     z, x = ROI_survey["z"] - ROI_survey.loc[IP, "z"], ROI_survey["x"] - ROI_survey.loc[IP, "x"]
     zz = z * np.cos(angle) - x * np.sin(angle)
     xx = z * np.sin(angle) + x * np.cos(angle)
+
+    print("OK SO FAFDP")
 
     # Inserting in dataframe
     ROI_survey.insert(1, "x_rot", xx)
@@ -242,4 +248,5 @@ def extract_IP_ROI(IP, beam, twiss, survey):
     ROI_twiss.insert(2, "y_lab", ROI_twiss["y"] + ROI_survey["y_rot"])
     ROI_twiss.insert(3, "s_lab", ROI_twiss["s"] - ROI_twiss.loc[IP, "s"])
 
+    print("TOUT BON FDP")
     return ROI_twiss, ROI_survey
