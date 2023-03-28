@@ -49,7 +49,8 @@ if True:
             if True:
                 # print(config['particle_file'])
                 # if True:
-                particle = pd.read_parquet(f"{my_study}/{config['particle_file']}")
+                # particle = pd.read_parquet(f"{my_study}/{config['particle_file']}")
+                particle = pd.read_parquet(f"{node_child.get_abs_path()}/{config['particle_file']}")
                 df = pd.read_parquet(f"{node_child.get_abs_path()}/fma.parquet")
                 df["path 1"] = f"{node.get_abs_path()}"
                 df["name 1"] = f"{node.name}"

@@ -1,6 +1,2 @@
-# This is a HTCondor submission file
-error  = error.txt
-output = output.txt
-log  = log.txt
-+JobFlavour  = "microcentury"
-#htc
+# Running on local pc
+#local_pc

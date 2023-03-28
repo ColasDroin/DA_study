@@ -159,7 +159,7 @@
             "oct_current": 60.0,
             "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
             "qx0": 62.316,
-            "qy0": 62.321
+            "qy0": 60.321
           }
         }
       ],
@@ -186,7 +186,7 @@
         "htc_job_flavor": "microcentury",
         "job_executable": "000_pymask.py",
         "job_folder": "master_jobs_footprint/001_machine_model",
-        "run_on": "htc"
+        "run_on": "local_pc"
       },
       "3": {
         "files_to_clone": [
@@ -195,7 +195,7 @@
         "htc_job_flavor": "microcentury",
         "job_executable": "000_track.py",
         "job_folder": "master_jobs_footprint/002_tracking_job",
-        "run_on": "htc"
+        "run_on": "local_pc"
       }
     },
     "setup_env_script": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/../miniconda/bin/activate"
