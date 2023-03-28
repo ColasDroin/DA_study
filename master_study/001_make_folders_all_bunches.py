@@ -18,7 +18,7 @@ config = yaml.safe_load(open("config.yaml"))
 # The user defines the variable to scan
 # machine parameters scans
 qx0 = [62.316]
-qy0 = [62.321]
+qy0 = [60.321]
 
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
 beam_sigt = [0.0761]
