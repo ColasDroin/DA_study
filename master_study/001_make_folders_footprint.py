@@ -25,13 +25,13 @@ beam_sigt = [0.0761]
 beam_npart = [1.4e11]
 oct_current = [60.0]
 enable_crabs = [True]
-mode = "b1_with_bb"
+mode = ["b1_with_bb", "b4_from_b2_with_bb"]
 
 on_x1 = 250.0
 on_x8v = 170
 on_x8h = 0.0
 on_disp = 1
-chroma = 15  # 15
+chroma = 15
 
 study_name = f"opt_flathv_75_1500_withBB_chroma15_footprint"
 
@@ -39,14 +39,14 @@ children = {}
 children[study_name] = {}
 children[study_name]["children"] = {}
 
-for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumerate(
-    itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs)
+for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs, my_mode) in enumerate(
+    itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs, mode)
 ):
     optics_children = {}
     children[study_name]["children"][f"madx_{optics_job:03}"] = {
         "qx0": float(myq1),
         "qy0": float(myq2),
-        "mode": mode,
+        "mode": my_mode,
         "optics_file": my_optics,
         "beam_sigt": my_sigt,
         "beam_npart": my_npart,
@@ -64,7 +64,7 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs) in 
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
-    for track_job in range(15):
+    for track_job in range(1):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
             "xline_json": "../xsuite_lines/line_bb_for_tracking.json",

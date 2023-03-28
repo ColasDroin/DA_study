@@ -1,0 +1,363 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_001",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_001/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/001.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_002",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_002/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/002.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_003",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_003/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/003.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_004",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_004/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/004.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_005",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_005/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/005.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_006",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_006/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/006.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_007",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_007/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/007.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_008",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_008/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/008.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_009",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_009/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/009.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_010",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_010/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/010.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_011",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_011/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/011.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_012",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_012/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/012.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_013",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_013/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/013.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_014",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/xsuite_014/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/014.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_000",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/tree_maker.log",
+            "mode": "b1_with_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_001",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_001/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/001.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_002",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_002/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/002.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_003",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_003/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/003.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_004",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_004/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/004.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_005",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_005/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/005.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_006",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_006/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/006.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_007",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_007/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/007.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_008",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_008/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/008.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_009",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_009/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/009.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_010",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_010/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/010.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_011",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_011/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/011.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_012",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_012/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/012.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_013",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_013/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/013.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            },
+            {
+              "name": "xsuite_014",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/xsuite_014/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/014.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_001",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/tree_maker.log",
+            "mode": "b4_from_b2_with_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        }
+      ],
+      "name": "opt_flathv_75_1500_withBB_chroma15_footprint",
+      "parameters": {}
+    }
+  ],
+  "name": "root",
+  "parameters": {
+    "generations": {
+      "1": {
+        "files_to_clone": [
+          "clean_it.sh"
+        ],
+        "job_executable": "000_make_distrib.py",
+        "job_folder": "master_jobs_footprint/000_make_part_distribution",
+        "run_on": "local_pc"
+      },
+      "2": {
+        "files_to_clone": [
+          "optics_specific_tools.py",
+          "clean_it.sh"
+        ],
+        "htc_job_flavor": "microcentury",
+        "job_executable": "000_pymask.py",
+        "job_folder": "master_jobs_footprint/001_machine_model",
+        "run_on": "local_pc"
+      },
+      "3": {
+        "files_to_clone": [
+          "clean_it.sh"
+        ],
+        "htc_job_flavor": "microcentury",
+        "job_executable": "000_track.py",
+        "job_folder": "master_jobs_footprint/002_tracking_job",
+        "run_on": "local_pc"
+      }
+    },
+    "setup_env_script": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/../miniconda/bin/activate"
+  }
+}
