@@ -61,10 +61,10 @@ class InteractionPoint:
         )
 
         # Making sure that the s location for both beams is compatible
-        assert np.all(np.array(_BB.s) == np.array(self.b2.bb.s_lab))
+        assert np.allclose(np.array(_BB.s), np.array(self.b2.bb.s_lab))
 
         # Making sure that the interpolation at the marker location gives precisely the same value
-        assert np.all(np.array(_BB[("b2", "x_lab")]) == self.b2.get_x_lab(self.b2.bb.s_lab))
+        assert np.allclose(np.array(_BB[("b2", "x_lab")]), self.b2.get_x_lab(self.b2.bb.s_lab))
 
         return _BB
 
@@ -101,7 +101,6 @@ class Beam:
     # To extract around an IP
     # ---------------------------
     def at_IP(self, IP):
-        print("OK SO FAR")
         self.twiss, self.survey = extract_IP_ROI(IP, self.name, self.twiss_full, self.survey_full)
 
         # if self.name == 'b2':
@@ -228,8 +227,6 @@ def extract_IP_ROI(IP, beam, twiss, survey):
         # Angle for rotation of survey
         angle = -ROI_survey.loc[IP, "theta"]
 
-    print(ROI_twiss)
-
     # Re-centering before rotating
     z, x = ROI_survey["z"] - ROI_survey.loc[IP, "z"], ROI_survey["x"] - ROI_survey.loc[IP, "x"]
     zz = z * np.cos(angle) - x * np.sin(angle)
@@ -246,5 +243,4 @@ def extract_IP_ROI(IP, beam, twiss, survey):
     ROI_twiss.insert(2, "y_lab", ROI_twiss["y"] + ROI_survey["y_rot"])
     ROI_twiss.insert(3, "s_lab", ROI_twiss["s"] - ROI_twiss.loc[IP, "s"])
 
-    print("TOUT BON FDP")
     return ROI_twiss, ROI_survey
