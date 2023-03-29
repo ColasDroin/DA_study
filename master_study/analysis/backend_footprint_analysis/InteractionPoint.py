@@ -228,14 +228,12 @@ def extract_IP_ROI(IP, beam, twiss, survey):
         # Angle for rotation of survey
         angle = -ROI_survey.loc[IP, "theta"]
 
-    print("OK SO FARRRRRRR")
+    print(ROI_twiss)
 
     # Re-centering before rotating
     z, x = ROI_survey["z"] - ROI_survey.loc[IP, "z"], ROI_survey["x"] - ROI_survey.loc[IP, "x"]
     zz = z * np.cos(angle) - x * np.sin(angle)
     xx = z * np.sin(angle) + x * np.cos(angle)
-
-    print("OK SO FAFDP")
 
     # Inserting in dataframe
     ROI_survey.insert(1, "x_rot", xx)

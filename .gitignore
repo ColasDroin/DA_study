@@ -11,7 +11,7 @@ tree_maker
 # Miniconda folder
 miniconda/
 miniconda*/
-
+master_study/analysis/LHC_sequence/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
