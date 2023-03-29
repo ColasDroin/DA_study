@@ -25,7 +25,7 @@ beam_sigt = [0.0761]
 beam_npart = [1.4e11]
 oct_current = [60.0]
 enable_crabs = [True]
-mode = ["b1_with_bb", "b4_from_b2_with_bb"]
+mode = ["b1_with_bb", "b4_from_b2_with_bb", "b1_without_bb", "b4_from_b2_without_bb"]
 
 on_x1 = 250.0
 on_x8v = 170
@@ -33,14 +33,27 @@ on_x8h = 0.0
 on_disp = 1
 chroma = 15
 
+list_bunches = [1963, 2116]
 study_name = f"opt_flathv_75_1500_withBB_chroma15_footprint"
 
 children = {}
 children[study_name] = {}
 children[study_name]["children"] = {}
 
-for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs, my_mode) in enumerate(
-    itertools.product(qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs, mode)
+for optics_job, (
+    myq1,
+    myq2,
+    my_optics,
+    my_sigt,
+    my_npart,
+    my_oct,
+    my_crabs,
+    my_mode,
+    my_bunch,
+) in enumerate(
+    itertools.product(
+        qx0, qy0, optics_file, beam_sigt, beam_npart, oct_current, enable_crabs, mode, list_bunches
+    )
 ):
     optics_children = {}
     children[study_name]["children"][f"madx_{optics_job:03}"] = {
@@ -61,6 +74,7 @@ for optics_job, (myq1, myq2, my_optics, my_sigt, my_npart, my_oct, my_crabs, my_
             "on_x8h": on_x8h,
             "on_disp": on_disp,
         },
+        "beambeam_config": {"bunch_to_track": my_bunch},
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }

@@ -24,13 +24,15 @@ if tree_maker is not None:
     tree_maker.tag_json.tag_it(configuration["log_file"], "started")
 
 # tracking scans
-r_min = 0
-r_max = 7
+# r_min = 0
+# r_max = 7
 # radial_list = np.linspace(r_min, r_max, 16*(r_max-r_min), endpoint=False)
-radial_list = np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
+# radial_list = np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
+radial_list = np.logspace(np.log10(0.5), np.log10(10), 10)
 
-n_angles = 20
-theta_list = np.linspace(0, 90, n_angles + 2)[1:-1]
+# n_angles = 20
+# theta_list = np.linspace(0, 90, n_angles + 2)[1:-1]
+theta_list = np.linspace(0.01 * 90, 0.99 * 90, 7)
 
 particle_list = [
     (particle_id, ii[0], ii[1])

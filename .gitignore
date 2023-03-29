@@ -12,6 +12,8 @@ tree_maker
 miniconda/
 miniconda*/
 master_study/analysis/LHC_sequence/
+master_study/analysis/data/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

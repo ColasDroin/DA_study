@@ -18,6 +18,9 @@
           "parameters": {
             "beam_npart": 140000000000.0,
             "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 1963
+            },
             "chromaticity_x": 15,
             "chromaticity_y": 15,
             "enable_crabs": true,
@@ -52,6 +55,9 @@
           "parameters": {
             "beam_npart": 140000000000.0,
             "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 2116
+            },
             "chromaticity_x": 15,
             "chromaticity_y": 15,
             "enable_crabs": true,
@@ -63,7 +69,229 @@
               "on_x8v": 170
             },
             "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/tree_maker.log",
+            "mode": "b1_with_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_002/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_002",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 1963
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_002/tree_maker.log",
             "mode": "b4_from_b2_with_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_003/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_003",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 2116
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_003/tree_maker.log",
+            "mode": "b4_from_b2_with_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_004/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_004",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 1963
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_004/tree_maker.log",
+            "mode": "b1_without_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_005/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_005",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 2116
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_005/tree_maker.log",
+            "mode": "b1_without_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_006/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_006",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 1963
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_006/tree_maker.log",
+            "mode": "b4_from_b2_without_bb",
+            "oct_current": 60.0,
+            "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
+            "qx0": 62.316,
+            "qy0": 60.321
+          }
+        },
+        {
+          "children": [
+            {
+              "name": "xsuite_000",
+              "parameters": {
+                "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_007/xsuite_000/tree_maker.log",
+                "n_turns": 10000,
+                "particle_file": "../../particles/000.parquet",
+                "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+              }
+            }
+          ],
+          "name": "madx_007",
+          "parameters": {
+            "beam_npart": 140000000000.0,
+            "beam_sigt": 0.0761,
+            "beambeam_config": {
+              "bunch_to_track": 2116
+            },
+            "chromaticity_x": 15,
+            "chromaticity_y": 15,
+            "enable_crabs": true,
+            "knob_settings": {
+              "on_disp": 1,
+              "on_x1": 250.0,
+              "on_x5": 250.0,
+              "on_x8h": 0.0,
+              "on_x8v": 170
+            },
+            "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_007/tree_maker.log",
+            "mode": "b4_from_b2_without_bb",
             "oct_current": 60.0,
             "optics_file": "optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx",
             "qx0": 62.316,
