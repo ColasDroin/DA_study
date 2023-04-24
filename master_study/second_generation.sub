@@ -1,10 +1,6 @@
-# Running on local pc
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_000/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_001/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_002/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_003/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_004/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_005/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_006/run.sh &
-bash /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_footprint/madx_007/run.sh &
-#local_pc
+# This is a HTCondor submission file
+error  = error.txt
+output = output.txt
+log  = log.txt
++JobFlavour  = "microcentury"
+#htc
