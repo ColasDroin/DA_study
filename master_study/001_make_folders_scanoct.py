@@ -16,7 +16,7 @@ config = yaml.safe_load(open("config.yaml"))
 
 # The user defines the variable to scan
 # machine parameters scans
-qx0 = np.round(np.arange(62.305, 62.325 + 0.001, 0.001),5)
+qx0 = np.round(np.arange(62.305, 62.325 + 0.001, 0.001), 5)
 
 
 optics_file = ["optics_repository/HLLHCV1.5/flatcc/opt_flathv_75_180_1500_thin.madx"]
@@ -34,7 +34,8 @@ on_x8h = 0.0
 on_disp = 1
 chroma = 15
 
-study_name = f"opt_flathv_75_1500_withBB_chroma15_octscan"
+bunch_to_track = 1891  # Worst bunch
+study_name = f"opt_flathv_75_1500_withBB_chroma15_b1891_octscan"
 
 children = {}
 children[study_name] = {}
@@ -62,14 +63,15 @@ for optics_job, (myq1, my_optics, my_sigt, my_npart, my_oct, my_crabs) in enumer
             "on_x8h": on_x8h,
             "on_disp": on_disp,
         },
+        "beambeam_config": {"bunch_to_track": bunch_to_track},
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
-    for track_job in range(15):
+    for track_job in range(10):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
             "xline_json": "../xsuite_lines/line_bb_for_tracking.json",
-            "n_turns": int(3000000),
+            "n_turns": int(1000000),
             "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/xsuite_{track_job:03}/tree_maker.log",
         }
 

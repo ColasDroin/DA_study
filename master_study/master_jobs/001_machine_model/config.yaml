@@ -33,8 +33,8 @@ optics_file: optics_repository/hllhc15/flat/opt_flatvh_75_300_1500_thin.madx
 optics_version: "1.5"
 
 # Enable checks
-check_betas_at_ips: false
-check_separations_at_ips: false
+check_betas_at_ips: true
+check_separations_at_ips: true
 save_intermediate_twiss: false
 
 # Tolerances for checks [ip1, ip2, ip5, ip8]
