@@ -10,7 +10,6 @@ tree_maker
 
 # Miniconda folder
 miniconda/
-miniconda*/
 master_study/analysis/LHC_sequence/
 master_study/analysis/data/
 
