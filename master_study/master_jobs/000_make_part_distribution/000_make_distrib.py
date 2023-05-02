@@ -26,7 +26,6 @@ if tree_maker is not None:
 # tracking scans
 r_min = 2
 r_max = 10
-# radial_list = np.linspace(r_min, r_max, 16*(r_max-r_min), endpoint=False)
 radial_list = np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
 
 n_angles = 5
