@@ -1,0 +1,522 @@
+# This is a HTCondor submission file
+error  = error.txt
+output = output.txt
+log  = log.txt
++JobFlavour  = "tomorrow"
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_350/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_350/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_495/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_495/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_497/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_497/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_653/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_653/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_680/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_681/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_682/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_683/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_684/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_685/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_686/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_687/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_688/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_689/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_690/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_691/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_692/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_693/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_694/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_695/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_004/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_005
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_005/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_006
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_006/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_007
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_007/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_008
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_008/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_009
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_696/xsuite_009/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_000
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_000/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_001
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_001/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_002
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_002/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_003
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_003/run.sh
+queue
+initialdir = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_004
+executable = /afs/cern.ch/work/c/cdroin/private/DA_study/master_study/opt_flathv_75_1500_withBB_chroma15_b1891_octscan/madx_697/xsuite_004/run.sh
+queue
+#htc

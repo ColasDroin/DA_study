@@ -22,9 +22,7 @@ start = time.time()
 # my_study = "opt_flathv_75_1500_withBB_chroma15_1p4"
 # my_study='opt_flathv_75_1500_withBB_chroma15_octphi2'
 # my_study = "opt_flathv_75_1500_withBB_chroma15_1p4_all_bunches"
-my_study = tree_maker.tree_from_json(
-    "tree_maker_opt_flathv_75_1500_withBB_chroma15_b1891_octscan.json"
-)
+my_study = "opt_flathv_75_1500_withBB_chroma15_b1891_octscan"
 problematic = []
 try:
     # root=tree_maker.tree_from_json(f'{my_study}/tree_maker.json')
